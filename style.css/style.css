@@ -1,0 +1,199 @@
+*{
+  background-color: #facbbb;;
+    font-family: 'helvetica', sans-serif;
+    
+}
+
+body{
+  
+}
+
+h1{
+  text-align: center;
+  font-size: 7rem;
+  margin-top: 5%;
+  Transform: translate(0px,20px);
+}
+
+h2{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  transform: translate(0px,-40px);
+}
+
+a { text-decoration: none; 
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-family: 'helvetica', sans-serif;
+    }
+
+    a:hover {
+    background-color:transparent }
+
+.yellow{
+      height: auto;
+      position:relative; }
+
+
+      #nav{
+        position:fixed;
+       top:0; 
+       width: 100vw;
+       height: 30px;
+       background-color:black;
+       font-size:20px; 
+       margin:0;
+       left:0;
+       justify-content: center;
+         line-height: 1.5;
+         text-align: center;
+         color: white;
+     }
+
+     #nav.a {
+      color: rgb(255, 255, 255);
+     }
+
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+         flex-wrap: wrap;
+        justify-content: center; 
+        width: 100%;
+      }
+      
+      
+      .flex-container > div {
+          margin: 90px;
+        width: 10rem;
+          padding: 20px;
+          font-size: 30px;
+        border: 2px solid black;
+      border-radius: 10px;
+      margin-top: 0px;
+      margin-bottom: 15px;
+      text-align: center;
+      color: black;
+      }
+
+      #heaven{
+        transition: all .2s ease-in-out;
+      }
+
+      #hell{
+        transition: all .2s ease-in-out;
+      }
+
+
+.heaven{
+  font-family: cursive, sans-serif;
+}
+
+.hell{
+  font-family: fantasy, sans-serif;
+}
+
+.heaven:hover{
+  color: lightblue;
+}
+
+
+.hell:hover{
+  color:#ff654a;
+}
+
+      #heaven:hover { 
+        color: #ffe380;
+      transform: scale(1.1); 
+      background-color: black;
+      background-image: radial-gradient(#fbb2a2 20%, transparent 20%),
+  radial-gradient(rgb(0, 0, 0) 20%, transparent 20%);
+background-color: rgb(255, 255, 255);
+background-position: 0 0, 50px 50px;
+background-size: 100px 100px;
+      }
+
+      #hell:hover {
+        transform: scale(1.1);
+      background-color: black;
+      background-image: radial-gradient(#fbb2a2 20%, transparent 20%),
+  radial-gradient(rgb(255, 255, 255) 20%, transparent 20%);
+background-color: rgb(0, 0, 0);
+background-position: 0 0, 50px 50px;
+background-size: 100px 100px;
+      }
+  
+
+
+    
+
+    .poly {
+      width: 150px;
+      align-content: center;
+      background-color: transparent;
+    }
+   
+
+    #container { margin: 0%; 
+    bottom:0%;
+  align-content: center;
+  transform: translate(0px,-4px);
+  z-index: -1;
+background-color: transparent;}
+
+      #circle { position: absolute; width: 100%; padding-bottom: 100%; overflow: hidden;; }
+      
+      #circle text { font-family: 'Helvetica', sans-serif; font-weight: 400; font: size 200 px;px }
+      
+      #circle svg { position: absolute; left: 0; top: 0; width: 100%; height: 640px;
+      
+        -webkit-animation-name: rotate;
+           -moz-animation-name: rotate;
+            -ms-animation-name: rotate;
+             -o-animation-name: rotate;
+                animation-name: rotate;
+        -webkit-animation-duration: 5s;
+           -moz-animation-duration: 5s;
+            -ms-animation-duration: 5s;
+             -o-animation-duration: 5s;
+                animation-duration: 5s;
+        -webkit-animation-iteration-count: infinite;
+           -moz-animation-iteration-count: infinite;
+            -ms-animation-iteration-count: infinite;
+             -o-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+           -moz-animation-timing-function: linear;
+            -ms-animation-timing-function: linear;
+             -o-animation-timing-function: linear;
+                animation-timing-function: linear;
+      
+      }
+      
+      @-webkit-keyframes rotate {
+          from { -webkit-transform: rotate(360deg); }
+          to { -webkit-transform: rotate(0); }
+      }
+      @-moz-keyframes rotate {
+          from { -moz-transform: rotate(360deg); }
+          to { -moz-transform: rotate(0); }
+      }
+      @-ms-keyframes rotate {
+          from { -ms-transform: rotate(360deg); }
+          to { -ms-transform: rotate(0); }
+      }
+      @-o-keyframes rotate {
+          from { -o-transform: rotate(360deg); }
+          to { -o-transform: rotate(0); }
+      }
+      @keyframes rotate {
+          from { transform: rotate(360deg); }
+          to { transform: rotate(0); }
+      }
+      
+
+      @media
+
+      
